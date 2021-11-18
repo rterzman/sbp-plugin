@@ -1,0 +1,8 @@
+spring.sbp:
+  enabled: true
+  runtimeMode: deployment
+  customPluginLoader:  org.pf4j.DefaultPluginLoader
+  #  custom-plugin-loader: com.plugin.core.CustomPluginLoader
+  # remember to add this line in case you are using IDEA
+  controller:
+    base-path: sbp
